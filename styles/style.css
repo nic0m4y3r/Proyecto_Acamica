@@ -1,0 +1,112 @@
+body {
+  max-width: 1200px;
+}
+
+header li {
+  display: inline-block;
+  color: #060a24;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+.logo{
+  width: 24px;
+  height: 24px;
+  }
+
+/*ACA LE DOY FORMATO AL TITULO */
+.titulo1 {
+  width: 85px;
+  height: 42px;
+  margin: 0;
+   
+    font-size: 36px;
+    letter-spacing: 0;
+    display: inline-block;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.world {
+  display: inline-block;
+  font-size: 36px;
+  width: 101px;
+  height: 42px;
+  text-decoration: line-through;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.titulo2{  
+display: inline-block;
+margin: 0;
+font-size: 36px;
+letter-spacing: 0;
+font-family: 'IBM Plex Sans', sans-serif;
+
+}
+
+.part1 {
+  width: 152px;
+  height: 84px;
+  color: #060a24;
+}
+
+.part2 {
+  text-decoration: line-through;
+  width: 179px;
+  height: 84px;
+  color: #060a24;
+}
+.part3 {
+  width: 391px;
+  height: 84px;
+  color: #060a24;
+}
+
+.part4 {
+margin-left: -40px;
+  width: 18px;
+  height: 84px;
+  color: #0000EC;
+}
+
+/*ACA LE DOY FORMATO AL TEXTO*/
+.texto {
+    size: 14px;
+       color: black ;
+       font-family: 'IBM Plex Mono', monospace;
+      
+    }
+
+    
+/*ACA LE DOY FORMATO AL BOTON*/
+.boton {
+    width: 226px;
+    height: 56px;
+    background-color: #00F3BB;
+    }
+
+
+    .phone {
+      width: 360px;
+      height: 519px;
+      transform: translate(-20px 1455px);
+      }
+
+      /*EPISODIOS*/
+
+      .episodios h2{
+        width: 157px;
+        height: 42px;
+        /*color: #FFFFFF;*/
+        font-size: 36px;
+        font-family: 'IBM Plex Sans', sans-serif;
+        letter-spacing: 0;
+        line-height: 42px;
+        transform: translate(16px 411px);
+      }
+      
+      .episodios iframe {
+        transform: translate(11px 474px);
+        margin: 4px;
+        width:298px;
+        height:225px;
+      }
