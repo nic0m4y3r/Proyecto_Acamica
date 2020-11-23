@@ -1,13 +1,12 @@
-body {
-  max-width: 1200px;
+*,
+*:before, *:after  {
+  box-sizing: border-box;
 }
 
-header li {
-  display: inline-block;
-  color: #060a24;
-  letter-spacing: 0;
-  line-height: 28px;
-}
+
+
+
+
 .logo{
   width: 24px;
   height: 24px;
@@ -22,7 +21,7 @@ header li {
     font-size: 36px;
     letter-spacing: 0;
     display: inline-block;
-    font-family: 'IBM Plex Sans', sans-serif;
+    
 }
 
 .world {
@@ -31,7 +30,7 @@ header li {
   width: 101px;
   height: 42px;
   text-decoration: line-through;
-  font-family: 'IBM Plex Sans', sans-serif;
+
 }
 
 .titulo2{  
@@ -39,7 +38,7 @@ display: inline-block;
 margin: 0;
 font-size: 36px;
 letter-spacing: 0;
-font-family: 'IBM Plex Sans', sans-serif;
+
 
 }
 
@@ -70,10 +69,11 @@ margin-left: -40px;
 
 /*ACA LE DOY FORMATO AL TEXTO*/
 .texto {
-    size: 14px;
-       color: black ;
-       font-family: 'IBM Plex Mono', monospace;
-      
+  font-family: IBMPlexMono;
+  font-size: 14px;
+  color: #060A24;
+  letter-spacing: 0;
+  line-height: 22px;
     }
 
     
@@ -82,6 +82,7 @@ margin-left: -40px;
     width: 226px;
     height: 56px;
     background-color: #00F3BB;
+    text-align: center;
     }
 
 
@@ -105,8 +106,12 @@ margin-left: -40px;
       }
       
       .episodios iframe {
-        transform: translate(11px 474px);
-        margin: 4px;
-        width:298px;
-        height:225px;
+        width:100%;
       }
+
+
+      /* GOOGLE FONTS
+      font-family: 'IBM Plex Mono', monospace;
+font-family: 'IBM Plex Sans Condensed', sans-serif;
+      
+      */
