@@ -1,27 +1,23 @@
 *,
-*:before, *:after  {
+*:before,
+*:after {
   box-sizing: border-box;
 }
 
-
-
-
-
-.logo{
+.logo {
   width: 24px;
   height: 24px;
-  }
+}
 
 /*ACA LE DOY FORMATO AL TITULO */
 .titulo1 {
   width: 85px;
   height: 42px;
   margin: 0;
-   
-    font-size: 36px;
-    letter-spacing: 0;
-    display: inline-block;
-    
+
+  font-size: 36px;
+  letter-spacing: 0;
+  display: inline-block;
 }
 
 .world {
@@ -30,16 +26,13 @@
   width: 101px;
   height: 42px;
   text-decoration: line-through;
-
 }
 
-.titulo2{  
-display: inline-block;
-margin: 0;
-font-size: 36px;
-letter-spacing: 0;
-
-
+.titulo2 {
+  display: inline-block;
+  margin: 0;
+  font-size: 36px;
+  letter-spacing: 0;
 }
 
 .part1 {
@@ -61,56 +54,86 @@ letter-spacing: 0;
 }
 
 .part4 {
-margin-left: -40px;
+  margin-left: -40px;
   width: 18px;
   height: 84px;
-  color: #0000EC;
+  color: #0000ec;
 }
 
 /*ACA LE DOY FORMATO AL TEXTO*/
 .texto {
   font-family: IBMPlexMono;
   font-size: 14px;
-  color: #060A24;
+  color: #060a24;
   letter-spacing: 0;
   line-height: 22px;
-    }
+}
 
-    
 /*ACA LE DOY FORMATO AL BOTON*/
 .boton {
-    width: 226px;
-    height: 56px;
-    background-color: #00F3BB;
-    text-align: center;
-    }
+  width: 226px;
+  height: 56px;
+  background-color: #00f3bb;
+  text-align: center;
+}
+
+.boton a {
+font-family: 'IBM Plex Mono-Medium';
+font-size: 18px;
+color: #060A24;
+letter-spacing: 0;
+text-align: center;
+line-height: 52px;
+}
+
+.phone {
+  width: 100%;
+  height: 519px;
+  transform: translate(-20px 1455px);
+}
+
+/*EPISODIOS*/
+
+.episodios h2 {
+  width: 157px;
+  height: 42px;
+  /*color: #FFFFFF;*/
+  font-size: 36px;
+  font-family: "IBM Plex Sans", sans-serif;
+  letter-spacing: 0;
+  line-height: 42px;
+  transform: translate(16px 411px);
+}
+
+.episodios iframe {
+  width: 100%;
+}
+
+/*ACA LE DOY FORMATO A LAS FOTOS*/
+.fotos ul li {
+list-style: none;
+margin-bottom: -5px;
+}
+
+.fotos ul{
+  padding: 0;
+
+  }
+
+.fotos ul li img {
+  width: 100%;
+  
+  }
+  
+
+/*ACA LE DOY FORMATO A LA SECCION ICONOS*/
+.iconos div img{
+  width: 104px;
+  height: 104px;
+  }
 
 
-    .phone {
-      width: 360px;
-      height: 519px;
-      transform: translate(-20px 1455px);
-      }
-
-      /*EPISODIOS*/
-
-      .episodios h2{
-        width: 157px;
-        height: 42px;
-        /*color: #FFFFFF;*/
-        font-size: 36px;
-        font-family: 'IBM Plex Sans', sans-serif;
-        letter-spacing: 0;
-        line-height: 42px;
-        transform: translate(16px 411px);
-      }
-      
-      .episodios iframe {
-        width:100%;
-      }
-
-
-      /* GOOGLE FONTS
+/* GOOGLE FONTS
       font-family: 'IBM Plex Mono', monospace;
 font-family: 'IBM Plex Sans Condensed', sans-serif;
       
