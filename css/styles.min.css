@@ -11,6 +11,10 @@ header li {
   line-height: 28px;
 }
 
+img {
+  max-width: 100%;
+}
+
 /*ACA LE DOY FORMATO AL BOTON1*/
 .boton:hover {
   background-image: linear-gradient(225deg, #0000fe 0%, #00f0b8 100%);
