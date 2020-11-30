@@ -69,7 +69,6 @@
   line-height: 22px;
 }
 
-
 .phone {
   width: 100%;
   height: 519px;
@@ -92,7 +91,7 @@ clip-path: polygon(0 18%, 100% 0, 100% 78%, 0 100%);
 .diagonal h2 {
   width: 157px;
   height: 42px;
-  /*color: #FFFFFF;*/
+  color: #FFFFFF;
   font-size: 36px;
   font-family: "IBM Plex Sans", sans-serif;
   letter-spacing: 0;
@@ -110,6 +109,14 @@ clip-path: polygon(0 18%, 100% 0, 100% 78%, 0 100%);
   margin-bottom: -5px;
 }
 
+.fotos h2 {
+  font-family: "IBM Plex Sans";
+  font-size: 36px;
+  color: #060a24;
+  letter-spacing: 0;
+  line-height: 42px;
+}
+
 .fotos ul {
   padding: 0;
 }
@@ -122,6 +129,25 @@ clip-path: polygon(0 18%, 100% 0, 100% 78%, 0 100%);
 .iconos div img {
   width: 104px;
   height: 104px;
+  
+}
+
+.iconos p {
+  font-family: 'IBM Plex Sans';
+  font-size: 24px;
+  color: #060a24;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.iconos h2 {
+  font-family: 'IBM Plex Sans';
+  font-size: 36px;
+  color: #060a24;
+  letter-spacing: 0;
+  line-height: 42px;
+  height: 84px;
+  width: 288px;
 }
 
 /*SECCION DIAGONAL 2*/
@@ -130,29 +156,27 @@ clip-path: polygon(0 18%, 100% 0, 100% 78%, 0 100%);
   position: relative;
   width: 320px;
   height: 100%;
-  padding-top: 12rem;
-  min-height: 500px;
+  padding-top: 3rem;
+  max-height: 341px;
   padding-bottom: 12rem;
   background-image: linear-gradient(225deg, #0000ff 0%, #0000a3 100%);
   clip-path: polygon(0 9%, 100% 0, 100% 100%, 0 100%);
 }
 
 .diagonal2 p {
-font-family: IBMPlexSans;
-font-size: 36px;
-color: #FFFFFF;
-letter-spacing: 0;
-text-align: center;
-line-height: 42px;
+  font-family: "IBM Plex Sans";
+  font-size: 36px;
+  color: #ffffff;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 42px;
+  height: 126px;
+  width: 288px;
 }
-
-.diagonal2 a {
-
-}
-
 
 /* GOOGLE FONTS
       font-family: 'IBM Plex Mono', monospace;
 font-family: 'IBM Plex Sans Condensed', sans-serif;
-      
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-family: 'IBM Plex Sans', sans-serif;
       */
