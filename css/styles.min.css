@@ -4,6 +4,13 @@ body {
   font-family: 'IBM Plex Sans Condensed';
 }
 
+/* ESTO SERIA EL TOTAL DEL HEADER
+.header-principal {
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+*/
 header li {
   display: inline-block;
   color: #060a24;
