@@ -23,7 +23,7 @@ img {
 }
 
 /*ACA LE DOY FORMATO AL BOTON1*/
-.boton:hover {
+.boton a:hover {
   background-image: linear-gradient(225deg, #0000fe 0%, #00f0b8 100%);
   color: #FFFFFF;
 }
@@ -33,8 +33,7 @@ img {
   height: 56px;
   background-color: #00f3bb;
   text-align: center;
-  margin-left: 10px;
-  margin-right: 10px;
+  padding: 90px 20px;
 }
 
 .boton a {
