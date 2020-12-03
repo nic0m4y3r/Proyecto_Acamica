@@ -1,135 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Podcast</title>
+    <script src="https://kit.fontawesome.com/24be7210ad.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/style.css" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Podcast</title>
-  <script src="https://kit.fontawesome.com/24be7210ad.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="styles/style.css" />
-  <link rel="stylesheet" href="css/styles.min.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
-</head>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet" />
+  </head>
 
-<body>
-  <header>
-    <div><img src="assets/logo.svg" alt="" class="logo" /></div>
+  <body>
+    <header>
+      <img src="./assets/logo.svg" alt="logo" class="logo" />
+      <nav class="menu">
+        <input type="checkbox" id="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#episodios">Episodios</a></li>
+          <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+          <li><a href="#invitados">Invitados</a></li>
+          <li><a href="#temas">Temas</a></li>
+        </ul>
+      </nav>
+    </header>
 
-    <div class="hamburguer">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-    <input type="checkbox" id="check">
+    <main>
+      <section id="inicio">
+        <h1>Hello <span class="texto-tachado">world</span> pale blue dot<span class="dot">.</span></h1>
 
-    <nav class="menu">
-      <ul>
-        <li><a href="#episodios">EPISODIOS</a></li>
-        <li><a href="#nosotros">NOSOTROS</a></li>
-        <li><a href="#entrevistas">ENTREVISTAS</a></li>
-        <li><a href="#topicos">TÓPICOS</a></li>
+        <p class="texto">
+          El portal de podcasts que explora el mundo de la seguridad informática y la tecnología. Nuevos episodios, todos los jueves cada 15 días.
+        </p>
+
+        <a href="#episodios">CONOCÉ MÁS</a>
+      </section>
+
+      <section id="episodios">
+        <h2>Episodios</h2>
+
+        <div class="episodios-contenido">
+          <div class="episodio-iframe">
+            <iframe
+              src="https://open.spotify.com/embed-podcast/show/0TZOiNDNsTnfMltIvrCkmY"
+              frameborder="0"
+              width="100%"
+              height="232"
+              allowtransparency="true"
+              allow="encrypted-media"
+            ></iframe>
+          </div>
+
+          <div class="episodio-iframe">
+            <iframe
+              src="https://open.spotify.com/embed-podcast/episode/4nOrBz4fSjiN5L5aZXxHts"
+              frameborder="0"
+              width="100%"
+              height="232"
+              allowtransparency="true"
+              allow="encrypted-media"
+            ></iframe>
+          </div>
+
+          <div class="episodio-iframe">
+            <iframe
+              src="https://open.spotify.com/embed-podcast/episode/0UhyIurLN0WWRzhMoSMrxR"
+              frameborder="0"
+              width="100%"
+              height="232"
+              allowtransparency="true"
+              allow="encrypted-media"
+            ></iframe>
+          </div>
+
+          <div class="episodio-iframe">
+            <iframe
+              src="https://open.spotify.com/embed-podcast/episode/19gzHthP6ECqLGoLOlmxb8"
+              frameborder="0"
+              width="100%"
+              height="232"
+              allowtransparency="true"
+              allow="encrypted-media"
+            ></iframe>
+          </div>
+
+          <div class="episodio-iframe">
+            <iframe
+              src="https://open.spotify.com/embed-podcast/show/0TZOiNDNsTnfMltIvrCkmY"
+              frameborder="0"
+              width="100%"
+              height="232"
+              allowtransparency="true"
+              allow="encrypted-media"
+            ></iframe>
+          </div>
+
+          <div class="episodio-iframe">
+            <iframe
+              src="https://open.spotify.com/embed-podcast/show/0TZOiNDNsTnfMltIvrCkmY"
+              frameborder="0"
+              width="100%"
+              height="232"
+              allowtransparency="true"
+              allow="encrypted-media"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
+      <section id="sobre-nosotros">
+        <div class="img-content">
+          <img src="assets/phone.png" alt="" class="phone" />
+        </div>
+
+        <div class="textos">
+          <h2>De dónde venimos</h2>
+          <p>
+            Un día nos reunimos con la idea de compartir un momento y charlar. Nos gustaba la idea poder seguir compartiendo pero dejando una huella.
+            Aqui podrás escuchar novedades, temas de interes, opiniones de especialistas y divagues.
+          </p>
+        </div>
+      </section>
+
+      <section id="invitados">
+        <h2>Invitadas/os estelares</h2>
+
+
+          <ul class="invitados-galeria">
+            <li><img src="assets/grace-hopper.png" alt="" /></li>
+            <li><img src="assets/Katie-Bouman.png" alt="" /></li>
+            <li><img src="assets/Margaret_Hamilton.png" alt="" /></li>
+            <li><img src="assets/An E.R.A.Univac 1103 computer in the 1950s.png" alt="" class="foto3" /></li>
+            <li>
+              <img src="assets/Computer operators with an Eniac — the world’s first programmable general-purpose computer.png" alt="" class="foto4" />
+            </li>
+            <li><img src="assets/susan-kare.png" alt="" class="foto6" /></li>
+          </ul>
+
+      </section>
+
+      <section id="temas">
+        <h2>Algunos de nuestros temas</h2>
+
+        <div class="temas-contenido">
+          <div class="tema-icono">
+            <img src="assets/icon1.svg" alt="" />
+            <p>Trabajo remoto</p>
+          </div>
+
+          <div class="tema-icono">
+            <img src="assets/icon2.svg" alt="" />
+            <p>Repensando la programación</p>
+          </div>
+
+          <div class="tema-icono">
+            <img src="assets/icon3.svg" alt="" />
+            <p>Bases del código</p>
+          </div>
+
+          <div class="tema-icono">
+            <img src="assets/icon4.svg" alt="" />
+            <p>Seguridad informática</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="novedades">
+        <h2>¿Querés las últimas novedades?</h2>
+
+        <a href="#episodios">ESCUCHÁ LOS EPISODIOS</a>
+      </section>
+    </main>
+
+    <footer>
+      <div class="texto">
+        <p>© 2019- Hello blue pale dot</p>
+      </div>
+
+
+      <ul class="redes">
+        <li class="fab fa-spotify"></li>
+        <li class="fab fa-instagram"></li>
+        <li class="fab fa-twitter"></li>
+        <li class="fab fa-facebook"></li>
+        <li class="fab fa-telegram-plane"></li>
       </ul>
-    </nav>
-  </header>
-  
-  <section class="text_titulo">
-    <div class="titulo1">Hello</div>
-    <div class="world">world</div>
-    <div class="titulo2">pale blue dot<span>.</span></div>
 
-    <p class="texto">
-      El portal de podcasts que explora el mundo de la seguridad informática y
-      la tecnología. Nuevos episodios, todos los jueves cada 15 días.
-    </p>
-    <div class="boton">
-      <a href="">CONOCÉ MÁS</a>
-    </div>
-  </section>
 
-  <section class="diagonal">
-    <div class="container">
-      <h2>Episodios</h2>
-      <iframe src="https://open.spotify.com/embed-podcast/show/0TZOiNDNsTnfMltIvrCkmY" frameborder="0"
-        allowtransparency="true" allow="encrypted-media"></iframe>
-      <iframe src="https://open.spotify.com/embed-podcast/episode/4nOrBz4fSjiN5L5aZXxHts" frameborder="0"
-        allowtransparency="true" allow="encrypted-media"></iframe>
-      <iframe src="https://open.spotify.com/embed-podcast/episode/0UhyIurLN0WWRzhMoSMrxR" frameborder="0"
-        allowtransparency="true" allow="encrypted-media"></iframe>
-      <iframe src="https://open.spotify.com/embed-podcast/episode/19gzHthP6ECqLGoLOlmxb8" frameborder="0"
-        allowtransparency="true" allow="encrypted-media"></iframe>
-    </div>
-  </section>
-
-  <section class="seccion2">
-    <div><img src="assets/phone.png" alt="" class="phone" /></div>
-    <h2>De dónde venimos</h2>
-    <p>
-      Un día nos reunimos con la idea de compartir un momento y charlar. Nos
-      gustaba la idea poder seguir compartiendo pero dejando una huella. Aqui
-      podrás escuchar novedades, temas de interes, opiniones de especialistas
-      y divagues.
-    </p>
-  </section>
-
-  <section class="fotos">
-    <h2>Invitadas/os estelares</h2>
-
-    <ul>
-      <li><img src="assets/grace-hopper.png" alt="" /></li>
-      <li><img src="assets/Katie-Bouman.png" alt="" /></li>
-      <li><img src="assets/Margaret_Hamilton.png" alt="" /></li>
-      <li><img src="assets/An E.R.A.Univac 1103 computer in the 1950s.png" alt="" class="foto3" /></li>
-      <li> <img
-          src="assets/Computer operators with an Eniac — the world’s first programmable general-purpose computer.png"
-          alt="" class="foto4" /></li>
-      <li><img src="assets/susan-kare.png" alt="" class="foto6" /></li>
-    </ul>
-
-  </section>
-
-  <section class="iconos">
-    <h2>Algunos de nuestros temas</h2>
-    <div>
-      <img src="assets/icon1.svg" alt="">
-      <p>Trabajo remoto</p>
-    </div>
-
-    <div>
-      <img src="assets/icon2.svg" alt="">
-      <p>Repensando la programación</p>
-      <div>
-
-        <img src="assets/icon3.svg" alt="">
-        <p>Bases del código</p>
-      </div>
-
-      <div>
-        <img src="assets/icon4.svg" alt="">
-        <p>Seguridad informática</p>
-      </div>
-  </section>
-
-  <section class="diagonal2">
-    <p>¿Querés las últimas novedades?</p>
-    <div class="boton2">
-      <a href="">ESCUCHÁ LOS EPISODIOS</a>
-    </div>
-  </section>
-
-  <footer>
-    <div>© 2019- Hello blue pale dot</div>
-    <ul class="redes">
-      <li class="fab fa-spotify"></li>
-      <li class="fab fa-instagram"></li>
-      <li class="fab fa-twitter"></li>
-      <li class="fab fa-facebook"></li>
-      <li class="fab fa-telegram-plane"></li>
-    </ul>
-  </footer>
-</body>
-
+    </footer>
+  </body>
 </html>
